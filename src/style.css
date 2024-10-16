@@ -1,20 +1,21 @@
-/*footer {
-    text-align: center;
-    font-family: Outfit, sans-serif;
-    position: relative;
-    width: 100%;
-    font-style: normal;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #bde3d0;
-    gap: 20px;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Outfit, sans-serif;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-footer img {
-    width: 30px;
-    height: 30px;
-}*/
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 95%;
+  min-height: 100vh;
+  justify-content: center;
+}
 header {
     top: 0;
     position: sticky;
@@ -37,3 +38,20 @@ header {
     padding: 20px;
     align-self: center;
   }
+  /*footer {
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    position: relative;
+    width: 100%;
+    font-style: normal;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bde3d0;
+    gap: 20px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}*/
